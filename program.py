@@ -11,14 +11,13 @@ while(True):
 		break
 	try:
 		c = int(n)
-		#print(c,type(c))
 		lista.append(c)
 	except:
 
 		c = float(n)
 		lista.append(c)
 
-#print(lista)
+
 
 
 for indice,num in enumerate(lista):
